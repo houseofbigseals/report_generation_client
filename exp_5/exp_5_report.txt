@@ -1,0 +1,474 @@
+/usr/bin/python3.6 /home/greencrow/PycharmProjects/report_generation_client/optimal_report.py
+
+ +++++++++++++++++++++++++++++++ start preparation +++++++++++++++++++++++++++++++
+/home/greencrow/PycharmProjects/report_generation_client/exp_5
+Creation of the directory /home/greencrow/PycharmProjects/report_generation_client/exp_5 failed: [Errno 17] File exists: '/home/greencrow/PycharmProjects/report_generation_client/exp_5'
+available days:
+2020-11-17
+2020-11-18
+2020-11-19
+2020-11-20
+2020-11-21
+2020-11-22
+2020-11-23
+2020-11-24
+2020-11-25
+2020-11-26
+2020-11-28
+
+ +++++++++++++++++++++++++++++++ start calculation +++++++++++++++++++++++++++++++
+
+ +++++++++++++++++++++++++++++++ day 2020-11-17 +++++++++++++++++++++++++++++++
+
+ ERROR, point: {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 172, in show_optimal_point\n    q2 = rows[1][\'q_val\']\n', 'IndexError: list index out of range\n'] 
+
+
+ ERROR, point: {'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 172, in show_optimal_point\n    q2 = rows[1][\'q_val\']\n', 'IndexError: list index out of range\n'] 
+
+
+ ERROR, point: {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 172, in show_optimal_point\n    q2 = rows[1][\'q_val\']\n', 'IndexError: list index out of range\n'] 
+
+
+ ERROR, point: {'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 172, in show_optimal_point\n    q2 = rows[1][\'q_val\']\n', 'IndexError: list index out of range\n'] 
+
+
+ ERROR, point: {'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, day: 2020-11-17 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 66, in show_all_optimal_points\n    path=path, show=False)\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 209, in show_optimal_point\n    min_g_point.update({\'date\': _day})\n', "AttributeError: 'NoneType' object has no attribute 'update'\n"]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-18 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)} 
+
+
+ min f point is : {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 967892.273868, 'mean_f': 0.076917740214}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 985477.6848790001, 'mean_f': 0.0769997615189}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1047776.062045, 'mean_f': 0.0693996708645}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1016058.133014, 'mean_f': 0.0683915079752}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1299348.7044250001, 'mean_f': 0.050504369962100004}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1110057.7832550001, 'mean_f': 0.0609282543909}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 894111.4102940001, 'mean_f': 0.08639246041615001}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 982102.0716235, 'mean_f': 0.076623924259}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1386042.86571, 'mean_f': 0.04368101862875}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 901008.297184, 'mean_f': 0.0974491584689}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1367013.48868, 'mean_f': 0.0446205512708}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 916739.016316, 'mean_f': 0.0966980057892}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 991530.3713545, 'mean_f': 0.07547508326635}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1123527.5943645001, 'mean_f': 0.0650456351034}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1122835.695365, 'mean_f': 0.056728424010299996}
+========================================================
+finally we got:
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-19 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)} 
+
+
+ min f point is : {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1568242.713775, 'mean_f': 0.04896260540205}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1394982.7391, 'mean_f': 0.05225433893105}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1446592.180005, 'mean_f': 0.0482812954619}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1594046.0991699998, 'mean_f': 0.041982807170349995}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1573331.113655, 'mean_f': 0.04433968314825}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1327532.283905, 'mean_f': 0.05949868630525}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1592831.91298, 'mean_f': 0.047947108319250004}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1930377.365155, 'mean_f': 0.0312125144967}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1361383.727445, 'mean_f': 0.06627931503645}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1795482.8171700002, 'mean_f': 0.0338844781375}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1409977.1932950001, 'mean_f': 0.0654552679216}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1539745.136705, 'mean_f': 0.0517031758167}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1638809.3710699999, 'mean_f': 0.0447421500715}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1795209.58861, 'mean_f': 0.035880932099750004}
+========================================================
+finally we got:
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-20 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)} 
+
+
+ min f point is : {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 489966.1341455, 'mean_f': 0.151533329913}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 531345.546403, 'mean_f': 0.137388421125}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 513740.039906, 'mean_f': 0.13428583910699998}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 595704.349352, 'mean_f': 0.110193735382}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 547684.1879024999, 'mean_f': 0.122814772292}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 500993.2767105, 'mean_f': 0.15408229144}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 521672.10188950005, 'mean_f': 0.141548810306}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 718920.721273, 'mean_f': 0.08331788839750001}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 514278.937655, 'mean_f': 0.170795890793}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 768846.5571925, 'mean_f': 0.07894597718375}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 499599.3174725, 'mean_f': 0.1773523523345}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 494752.2999885, 'mean_f': 0.15094024359}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 577957.3672295001, 'mean_f': 0.1234886088895}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 562034.021558, 'mean_f': 0.113312752514}
+========================================================
+finally we got:
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}, {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-21 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)} 
+
+
+ min f point is : {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 496594.2635835, 'mean_f': 0.153715585136}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 481971.46509199997, 'mean_f': 0.150654844834}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 525535.851828, 'mean_f': 0.1311091818485}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 621800.6092125, 'mean_f': 0.105608560998}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 567433.5324820001, 'mean_f': 0.1185973850085}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 477078.292827, 'mean_f': 0.16172809902149998}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 488984.033571, 'mean_f': 0.1510651905025}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 848614.467797, 'mean_f': 0.07055627416255}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 447146.881621, 'mean_f': 0.19632393413}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 665075.0035325, 'mean_f': 0.09133468097715}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 468010.2216035, 'mean_f': 0.189336974153}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 496189.1683915, 'mean_f': 0.15058072985249998}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 503778.6020785, 'mean_f': 0.1417215039795}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 570314.2104549999, 'mean_f': 0.11291752721500001}
+========================================================
+finally we got:
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}, {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-22 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)} 
+
+
+ min f point is : {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 377538.91625999997, 'mean_f': 0.20116185517000001}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 488341.310795, 'mean_f': 0.1560847901965}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 490845.08942900004, 'mean_f': 0.14171589178900001}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 534323.0772475, 'mean_f': 0.122817973328}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 429437.4843465, 'mean_f': 0.15687844051299998}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 445506.67352199997, 'mean_f': 0.213894981322}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 367543.636927, 'mean_f': 0.209798079774}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451005.41896449996, 'mean_f': 0.163740501835}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 758347.502463, 'mean_f': 0.0789555681946}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 450933.17131999996, 'mean_f': 0.1965585698545}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 722156.831781, 'mean_f': 0.08405549006230001}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 492791.17277249997, 'mean_f': 0.151634533951}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 555787.0188724999, 'mean_f': 0.129634609397}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 589767.1165034999, 'mean_f': 0.10914420384410001}
+========================================================
+finally we got:
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}, {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-23 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)} 
+
+
+ min f point is : {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315651.7525195, 'mean_f': 0.235440345502}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 348927.121416, 'mean_f': 0.220014652517}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 356790.171448, 'mean_f': 0.20368958756650002}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 384406.3836955, 'mean_f': 0.1806233476}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 509737.77281500003, 'mean_f': 0.12874175221200002}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 455940.70319150004, 'mean_f': 0.1504592900365}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 388413.6477625, 'mean_f': 0.2451186140945}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 364219.6908105, 'mean_f': 0.2130584943945}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 329333.0391885, 'mean_f': 0.2244455480705}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 727408.0601855, 'mean_f': 0.0823714981546}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 345201.221322, 'mean_f': 0.254306690962}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 619080.9904400001, 'mean_f': 0.0990123075995}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 374833.162536, 'mean_f': 0.1907715760375}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 509659.81511900004, 'mean_f': 0.125648431231}
+========================================================
+finally we got:
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}, {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}, {'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-24 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 308668.524998, 'mean_f': 0.2405199911775, 'date': datetime.date(2020, 11, 24)} 
+
+
+ min f point is : {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 344254.3355415, 'mean_f': 0.257490462434, 'date': datetime.date(2020, 11, 24)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 308668.524998, 'mean_f': 0.2405199911775, 'date': datetime.date(2020, 11, 24)}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 318474.0421115, 'mean_f': 0.23896234756700002}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 317437.361952, 'mean_f': 0.22910515269800003}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 359032.909523, 'mean_f': 0.19214091530299998}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 395026.98141550005, 'mean_f': 0.16612496726999998}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 382576.505272, 'mean_f': 0.1773150282225}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 388191.43556849996, 'mean_f': 0.24555385508850003}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 328988.5307465, 'mean_f': 0.234847401241}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 321731.22837699996, 'mean_f': 0.22968611463799998}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 554625.1822724999, 'mean_f': 0.10802108381600001}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 349516.3463435, 'mean_f': 0.2514946612485}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 542900.2540765, 'mean_f': 0.111921159224}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 344254.3355415, 'mean_f': 0.257490462434, 'date': datetime.date(2020, 11, 24)}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 330807.11137149995, 'mean_f': 0.22581542792300002}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342052.05001999997, 'mean_f': 0.20936336452999998}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 446370.3513695, 'mean_f': 0.1433684077515}
+========================================================
+finally we got:
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 344254.3355415, 'mean_f': 0.257490462434, 'date': datetime.date(2020, 11, 24)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 308668.524998, 'mean_f': 0.2405199911775, 'date': datetime.date(2020, 11, 24)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 344254.3355415, 'mean_f': 0.257490462434, 'date': datetime.date(2020, 11, 24)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}, {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}, {'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 308668.524998, 'mean_f': 0.2405199911775, 'date': datetime.date(2020, 11, 24)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-25 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 371330.324427, 'mean_f': 0.1717673328845, 'date': datetime.date(2020, 11, 25)} 
+
+
+ min f point is : {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 475889.443736, 'mean_f': 0.2161605324835, 'date': datetime.date(2020, 11, 25)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 469915.2872115, 'mean_f': 0.1580004201975}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 384667.7623805, 'mean_f': 0.206994760311}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 443849.861189, 'mean_f': 0.163596761997}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 430712.99588149996, 'mean_f': 0.160092297318}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 377550.837497, 'mean_f': 0.1756004834315}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 409727.084911, 'mean_f': 0.16416812629650002}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 475889.443736, 'mean_f': 0.2161605324835, 'date': datetime.date(2020, 11, 25)}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 475715.400621, 'mean_f': 0.162092604235}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 463800.2577325, 'mean_f': 0.159236095777}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 429242.661739, 'mean_f': 0.1420633632965}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 428339.546496, 'mean_f': 0.21514374251649998}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 392866.781181, 'mean_f': 0.15454188081}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 563101.787637, 'mean_f': 0.1576644944325}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 380739.53122799995, 'mean_f': 0.205443158375}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 441392.80409750005, 'mean_f': 0.1617199317745}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 371330.324427, 'mean_f': 0.1717673328845, 'date': datetime.date(2020, 11, 25)}
+========================================================
+finally we got:
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 475889.443736, 'mean_f': 0.2161605324835, 'date': datetime.date(2020, 11, 25)}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 371330.324427, 'mean_f': 0.1717673328845, 'date': datetime.date(2020, 11, 25)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 344254.3355415, 'mean_f': 0.257490462434, 'date': datetime.date(2020, 11, 24)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 475889.443736, 'mean_f': 0.2161605324835, 'date': datetime.date(2020, 11, 25)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}, {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}, {'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 308668.524998, 'mean_f': 0.2405199911775, 'date': datetime.date(2020, 11, 24)}, {'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 371330.324427, 'mean_f': 0.1717673328845, 'date': datetime.date(2020, 11, 25)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-26 +++++++++++++++++++++++++++++++
+
+ min g point is : {'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)} 
+
+
+ min f point is : {'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)} 
+
+final search table:
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 432447.321497, 'mean_f': 0.17177824500549999}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 429232.79858299997, 'mean_f': 0.1770955550755}
+{'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 433900.7952155, 'mean_f': 0.1673490730285}
+{'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 432561.6095775, 'mean_f': 0.15931133049750001}
+{'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 394994.1667515, 'mean_f': 0.1666200306575}
+{'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 379956.6018075, 'mean_f': 0.177204738604}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 589793.9980599999, 'mean_f': 0.16161522776749998}
+{'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 458578.1348035, 'mean_f': 0.1684171124855}
+{'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 436758.63922350004, 'mean_f': 0.169718171456}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)}
+{'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510202.28035250003, 'mean_f': 0.17275995741599998}
+{'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 359428.1848565, 'mean_f': 0.1695791300265}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 527007.9188285, 'mean_f': 0.1681364861635}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 424432.91035799996, 'mean_f': 0.1764584597295}
+{'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 425377.5286745, 'mean_f': 0.167797182322}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 374968.97071250004, 'mean_f': 0.1699651813775}
+========================================================
+finally we got:
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)}
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)}, {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 344254.3355415, 'mean_f': 0.257490462434, 'date': datetime.date(2020, 11, 24)}, {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 475889.443736, 'mean_f': 0.2161605324835, 'date': datetime.date(2020, 11, 25)}, {'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)}]
+[{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}, {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}, {'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)}, {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 308668.524998, 'mean_f': 0.2405199911775, 'date': datetime.date(2020, 11, 24)}, {'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 371330.324427, 'mean_f': 0.1717673328845, 'date': datetime.date(2020, 11, 25)}, {'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)}]
+
+ +++++++++++++++++++++++++++++++ day 2020-11-28 +++++++++++++++++++++++++++++++
+
+ ERROR, point: {'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 3, 'red': 190, 'white': 70, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 4, 'red': 40, 'white': 160, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 5, 'red': 160, 'white': 40, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 172, in show_optimal_point\n    q2 = rows[1][\'q_val\']\n', 'IndexError: list index out of range\n'] 
+
+
+ ERROR, point: {'number': 6, 'red': 100, 'white': 100, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 8, 'red': 25, 'white': 235, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 9, 'red': 145, 'white': 115, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 11, 'red': 205, 'white': 175, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 12, 'red': 55, 'white': 85, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 15, 'red': 235, 'white': 25, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, point: {'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0} 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 171, in show_optimal_point\n    q1 = rows[0][\'q_val\']\n', 'IndexError: tuple index out of range\n'] 
+
+
+ ERROR, day: 2020-11-28 
+ calculation failed: ['Traceback (most recent call last):\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 66, in show_all_optimal_points\n    path=path, show=False)\n', '  File "/home/greencrow/PycharmProjects/report_generation_client/optimal_report.py", line 209, in show_optimal_point\n    min_g_point.update({\'date\': _day})\n', "AttributeError: 'NoneType' object has no attribute 'update'\n"]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+days with errors for exp5
+2020-11-17
+2020-11-28
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+max f points for exp5
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1392821.0488200001, 'mean_f': 0.06894643522975, 'date': datetime.date(2020, 11, 19)}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 510724.28739, 'mean_f': 0.1864743488425, 'date': datetime.date(2020, 11, 20)}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 451850.3708685, 'mean_f': 0.210792761411, 'date': datetime.date(2020, 11, 21)}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 405184.3120245, 'mean_f': 0.21873432894150002, 'date': datetime.date(2020, 11, 22)}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 342809.0084615, 'mean_f': 0.258509862184, 'date': datetime.date(2020, 11, 23)}
+{'number': 13, 'red': 175, 'white': 205, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 344254.3355415, 'mean_f': 0.257490462434, 'date': datetime.date(2020, 11, 24)}
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 475889.443736, 'mean_f': 0.2161605324835, 'date': datetime.date(2020, 11, 25)}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+min g points for exp5
+{'number': 7, 'red': 220, 'white': 220, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 849280.2462579999, 'mean_f': 0.112259970667, 'date': datetime.date(2020, 11, 18)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 1325140.38201, 'mean_f': 0.0560301174894, 'date': datetime.date(2020, 11, 19)}
+{'number': 2, 'red': 70, 'white': 190, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 485770.4690025, 'mean_f': 0.1566729406095, 'date': datetime.date(2020, 11, 20)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 442226.1298225, 'mean_f': 0.17009482970700002, 'date': datetime.date(2020, 11, 21)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 360795.8505315, 'mean_f': 0.2057793983085, 'date': datetime.date(2020, 11, 22)}
+{'number': 14, 'red': 115, 'white': 145, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 315495.72520750004, 'mean_f': 0.23668424912949998, 'date': datetime.date(2020, 11, 23)}
+{'number': 1, 'red': 130, 'white': 130, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 308668.524998, 'mean_f': 0.2405199911775, 'date': datetime.date(2020, 11, 24)}
+{'number': 16, 'red': 17, 'white': 138, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 371330.324427, 'mean_f': 0.1717673328845, 'date': datetime.date(2020, 11, 25)}
+{'number': 10, 'red': 85, 'white': 55, 'finished': 0, 'f': 0, 'q': 0, 'mean_q': 336819.46749049996, 'mean_f': 0.17782381179200002, 'date': datetime.date(2020, 11, 26)}
+[datetime.date(2020, 11, 18), datetime.date(2020, 11, 19), datetime.date(2020, 11, 20), datetime.date(2020, 11, 21), datetime.date(2020, 11, 22), datetime.date(2020, 11, 23), datetime.date(2020, 11, 24), datetime.date(2020, 11, 25), datetime.date(2020, 11, 26)]
+[220, 130, 70, 130, 130, 115, 130, 17, 85]
+[220, 130, 190, 130, 130, 145, 130, 138, 55]
+[849280.2462579999, 1325140.38201, 485770.4690025, 442226.1298225, 360795.8505315, 315495.72520750004, 308668.524998, 371330.324427, 336819.46749049996]
+/home/greencrow/PycharmProjects/report_generation_client/exp_5
+Creation of the directory /home/greencrow/PycharmProjects/report_generation_client/exp_5 failed: [Errno 17] File exists: '/home/greencrow/PycharmProjects/report_generation_client/exp_5'
+
+Process finished with exit code 0
+
