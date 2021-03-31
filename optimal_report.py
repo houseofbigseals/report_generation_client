@@ -7,6 +7,7 @@ from copy import deepcopy
 import time
 from copy import deepcopy
 from scipy import interpolate
+import matplotlib.dates as mdates
 import numpy as np
 import pylab as pl
 import mpl_toolkits.mplot3d.axes3d as p3
@@ -102,36 +103,101 @@ def show_all_optimal_points(_db_params, _search_table, _exp_id):
 
     # plot optimal points and save
     dates = [p['date'] for p in min_g_points]
+    fs = [p['mean_f'] for p in min_g_points]
     red = [p['red'] for p in min_g_points]
     white = [p['white'] for p in min_g_points]
     gs = [p['mean_q'] for p in min_g_points]
+
+    # lets create beautiful approximation of G and F data
+    # at first - convert datetime series to magic numbers
+    x = mdates.date2num(dates)
+    g_approx = np.polyfit(x, gs, 4)
+    f_approx = np.polyfit(x, fs, 4)
+    g_ap = np.poly1d(g_approx)
+    f_ap = np.poly1d(f_approx)
+    xp = np.linspace(np.min(x), np.max(x), 100)
+    dxp = mdates.num2date(xp)
+
+    f_err = np.ones(len(fs))*0.015
+    g_err = np.ones(len(gs))*25000
+
+    print(x)
+    print(f_err)
+    print(g_err)
 
     print(dates)
     print(red)
     print(white)
     print(gs)
 
-    fig, axs = plt.subplots(3, 1, sharex=True, figsize=[12, 9])
+    fig, axs = plt.subplots(4, 1, sharex=True, figsize=[12, 9])
     fig.suptitle("exp {}".format(_exp_id ))
+
+
+    # led_error = mdates.num2date(np.ones(len(red))*0.8)
+    # led_error = [datetime.timedelta(hours=16) for x in range(0, len(red))]
+    # lower_error = [datetime.timedelta(hours=16) for x in range(0, len(red))]
+    # upper_error = [datetime.timedelta(hours=0.1) for x in range(0, len(red))]
+    # asymmetric_error = [lower_error, upper_error]
+
     # cs = plt.contour(xx_new, yy_new, interp.T)
     # plt.scatter(x, y, s=area, c=z, antialiased=False, cmap=cm.coolwarm)
     # plt.subplot(311)
-    axs[0].plot(dates, gs, "-og", label='trajectory of min G')
+    # axs[0].plot(dates, gs, "og", label='trajectory of min G')
+    axs[0].errorbar(dates, gs, yerr=g_err,
+                    marker='.',
+                    color='g',
+                    ecolor='g',
+                    markerfacecolor='g',
+                    label="",
+                    capsize=10,
+                    linestyle='')
+
+    axs[0].plot(dxp, g_ap(xp), "-g", label='approximation of trajectory of min G')
     axs[0].grid()
+
+    # axs[1].plot(dates, fs, "ok", label='trajectory of F for min G points')
+    axs[1].errorbar(dates, fs, yerr=f_err, marker='o',
+             color='k',
+             ecolor='k',
+             markerfacecolor='k',
+             label="",
+             capsize=10,
+             linestyle='')
+
+    axs[1].plot(dxp, f_ap(xp), "-k", label='approximation of trajectory of min G')
+    axs[1].grid()
+
     # axs[0].ylabel('G')
     # plt.subplot(312)
-    axs[1].plot(dates, red, "-or", label='trajectory of min G red coord')
-    axs[1].grid()
+    axs[2].plot(dates, red, "or", label='trajectory of min G red coord')
+    # axs[2].errorbar(dates, red, yerr=None, xerr=asymmetric_error, marker='.',
+    #                 color='r',
+    #                 ecolor='r',
+    #                 markerfacecolor='r',
+    #                 label="",
+    #                 capsize=10,
+    #                 linestyle='')
+
+    axs[2].grid()
     # axs[1].ylabel('red, mA')
     # plt.subplot(313)
-    axs[2].plot(dates, white, "-ob", label='trajectory of min G white coord')
-    axs[2].grid()
+    axs[3].plot(dates, white, "ob", label='trajectory of min G white coord')
+    # axs[3].errorbar(dates, white, yerr=None, xerr=datetime.timedelta(hours=16), marker='.', fmt='o',
+    #                 color='r',
+    #                 ecolor='r',
+    #                 markerfacecolor='r',
+    #                 label="",
+    #                 capsize=10,
+    #                 linestyle='')
+    axs[3].grid()
     # axs[2].ylabel('white, mA')
 
     axs[0].set(ylabel='G, eqv mass')
-    axs[1].set(ylabel='red, mA')
-    axs[2].set(ylabel='white, mA')
-    axs[2].set(xlabel='date')
+    axs[1].set(ylabel='F, ppmv/sec for full crop')
+    axs[2].set(ylabel='red, mA')
+    axs[3].set(ylabel='white, mA')
+    axs[3].set(xlabel='date')
 
 
     # fig.xlabel('date')
@@ -293,7 +359,7 @@ def show_optimal_point(_db_params, search_table, _exp_id, _day, path, show=True)
     # for i in range(0, len(z)):
     #     print('x = {} y = {} z = {}'.format(x[i], y[i], z[i]))
 
-    f = interpolate.interp2d(x, y, z, kind='linear')
+    f = interpolate.interp2d(x, y, z, kind='cubic')
 
     xnew = np.arange(10, 250, 1)
     ynew = np.arange(10, 250, 1)
@@ -321,26 +387,135 @@ def show_optimal_point(_db_params, search_table, _exp_id, _day, path, show=True)
 
 
     # if show:
-    #     plt.show()
+    # plt.show()
 
     return _search_table, min_g_point, max_f_point, error_points
 
 
-if __name__ == "__main__":
-    # db = {
-    #     "host": '10.9.0.23',
-    #     "user": 'remote_admin',
-    #     "db": 'experiment',
-    #     "password": "amstraLLa78x[$"
-    # }
+def one_point_load_raw_data(_db_params, _exp_id, point_id, show=True):
+    con = pymysql.connect(host=_db_params["host"],
+                          user=_db_params["user"],
+                          password=_db_params["password"],
+                          # db='experiment',
+                          charset='utf8mb4',
+                          cursorclass=pymysql.cursors.DictCursor)
+    cur = con.cursor()
+    cur.execute("use {}".format(_db_params["db"]))
 
-    # params of db
+    comm_str = "select step_id, red, white, start_time, end_time from exp_data where point_id={}".format(
+        point_id
+    )
+    resp = cur.execute(comm_str)
+
+    rows = cur.fetchall()
+    # print(rows)
+    t_start = rows[0]['start_time']
+    t_stop = rows[0]['end_time']
+    red = rows[0]['red']
+    white = rows[0]['white']
+
+    # for now we will handle one point differentiation in this callback
+    # select time, data from raw_data where sensor_id = 3 and time
+    # load co2
+    comm_str = "select time, data from raw_data where exp_id = {} and sensor_id = {} " \
+               "and time > '{}' and time < '{}'".format(
+        exp_id, 3, t_start, t_stop)
+    resp = cur.execute(comm_str)
+    co2_rows = cur.fetchall()
+    print(len(co2_rows))
+    co2_array = [x['data'] for x in co2_rows]
+    co2_time_array = [x['time'] for x in co2_rows]
+
+    # load si7021 hum
+    comm_str = "select time, data from raw_data where exp_id = {} and sensor_id = {} " \
+               "and time > '{}' and time < '{}'".format(
+        exp_id, 4, t_start, t_stop)
+    resp = cur.execute(comm_str)
+    hum_rows = cur.fetchall()
+    print(len(hum_rows))
+    hum_array = [x['data'] for x in hum_rows]
+    hum_time_array = [x['time'] for x in hum_rows]
+
+    # load si7021 temp
+    comm_str = "select time, data from raw_data where exp_id = {} and sensor_id = {} " \
+               "and time > '{}' and time < '{}'".format(
+        exp_id, 5, t_start, t_stop)
+    resp = cur.execute(comm_str)
+    temp_rows = cur.fetchall()
+    print(len(temp_rows))
+    temp_array = [x['data'] for x in temp_rows]
+    temp_time_array = [x['time'] for x in temp_rows]
+
+    # load bmp180 pressure
+    comm_str = "select time, data from raw_data where exp_id = {} and sensor_id = {} " \
+               "and time > '{}' and time < '{}'".format(
+        exp_id, 2, t_start, t_stop)
+    resp = cur.execute(comm_str)
+    pressure_rows = cur.fetchall()
+    print(len(pressure_rows))
+    pressure_array = [x['data'] for x in pressure_rows]
+    pressure_time_array = [x['time'] for x in pressure_rows]
+    con.close()
+
+    if show:
+        # 2D subplots plot
+        # fig, axs = plt.subplots(4, 1, sharex=True, figsize=[12, 9])
+        fig, axs = plt.subplots(4, 1, figsize=[12, 9])
+        fig.suptitle("exp={} point={} red={} white={} start_time={}".format(
+            _exp_id, point_id, red, white, t_start))
+
+        axs[0].plot(co2_time_array, co2_array, "-g", label='raw co2 data')
+        axs[0].grid()
+
+        axs[1].plot(temp_time_array , temp_array, "-r", label='raw si7021 temp data')
+        axs[1].grid()
+
+        axs[2].plot(hum_time_array, hum_array, "-b", label='raw si7021 hum data')
+        axs[2].grid()
+
+        axs[3].plot(pressure_time_array, pressure_array, "-k", label='bmp180 pressure data')
+        axs[3].grid()
+
+        axs[0].set(ylabel='CO2, ppmv')
+        axs[1].set(ylabel='Temp, C')
+        axs[2].set(ylabel='Hum, %')
+        axs[3].set(ylabel='Pressure, kPa')
+        axs[3].set(xlabel='time')
+
+        pl.show()
+
+    return t_start, t_stop, red, white, co2_time_array, co2_array, \
+           hum_time_array, hum_array, temp_time_array, temp_array, pressure_time_array, pressure_array
+
+def show_one_day(_db_params, _exp_id, day, show=True):
+    con = pymysql.connect(host=_db_params["host"],
+                          user=_db_params["user"],
+                          password=_db_params["password"],
+                          # db='experiment',
+                          charset='utf8mb4',
+                          cursorclass=pymysql.cursors.DictCursor)
+    cur = con.cursor()
+    cur.execute("use {}".format(_db_params["db"]))
+
+    # get list of points of that day
+
+
+
+if __name__ == "__main__":
     db = {
-        "host": 'localhost',
-        "user": 'admin',
-        "db": 'experiment_copy',
-        "password": "admin"
+        "host": '10.9.0.23',
+        "user": 'remote_admin',
+        "db": 'experiment',
+        "password": "amstraLLa78x[$"
     }
+
+    # # params of db
+    # db = {
+    #     "host": 'localhost',
+    #     "user": 'admin',
+    #     "db": 'experiment_copy',
+    #     "password": "admin"
+    # }
     _day = datetime.datetime.now()
     search_table = [
         {"number": 1, "red": 130, "white": 130, "finished": 0, 'f': 0, 'q': 0},
@@ -361,20 +536,23 @@ if __name__ == "__main__":
         {"number": 16, "red": 17, "white": 138, "finished": 0, 'f': 0, 'q': 0}
     ]
 
-    exp_id = 4
+    exp_id = 9
 
 
     show_all_optimal_points(db, search_table, exp_id)
 
+    #one_point_load_raw_data(db, exp_id, point_id=1236, show=True)
+    # one_point_load_raw_data(db, exp_id, point_id=461, show=True)
+
     # exp_5_f_opts = []
     # exp_5_g_opts = []
 
-    path = os.getcwd() + '/exp_{}'.format(exp_id)
-    print(path)
-    try:
-        os.mkdir(path)
-    except OSError as e:
-        print("Creation of the directory {} failed: {}".format(path, e))
+    # path = os.getcwd() + '/exp_{}'.format(exp_id)
+    # print(path)
+    # try:
+    #     os.mkdir(path)
+    # except OSError as e:
+    #     print("Creation of the directory {} failed: {}".format(path, e))
 
     # _, min_g, min_f, errs =show_optimal_point(db, search_table, exp_id, _day='2020-11-17',
     #                                     path=path, show=False)
